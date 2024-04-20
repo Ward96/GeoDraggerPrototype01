@@ -25,5 +25,11 @@ public class SceneSwitcher : MonoBehaviour
     public void US_Monuments()
     {
         SceneManager.LoadScene("US_Monuments");
+        PlayerPrefs.SetString("HighScoreSwitcher", "USMonuments");//set a playerpref string so that the high score menu knows what high score file to use, will be needed in a later build
+    }
+
+    public void HighScoresScreen()
+    {
+        SceneManager.LoadScene("HighScores");
     }
 }
