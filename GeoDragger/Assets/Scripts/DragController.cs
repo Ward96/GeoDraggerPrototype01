@@ -6,7 +6,7 @@ using UnityEngine.EventSystems;
 public class DragController : MonoBehaviour
 {
 
-    Vector3 originalPosition;
+    public Vector3 originalPosition;
     GameObject objectToDrag;
     string objectTag; 
     GameObject dragObjective;
